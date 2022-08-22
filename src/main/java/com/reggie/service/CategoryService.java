@@ -7,4 +7,5 @@ import com.reggie.entity.Category;
  * @author tkzc
  */
 public interface CategoryService extends IService<Category> {
+    public void remove(Long ids);
 }

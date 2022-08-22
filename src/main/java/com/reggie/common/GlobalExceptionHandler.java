@@ -11,6 +11,8 @@ import java.sql.SQLIntegrityConstraintViolationException;
 
 /**
  * 全局异常处理
+ *
+ * @author tkzc
  */
 @ControllerAdvice(annotations = {RestController.class, Controller.class})
 @ResponseBody
@@ -33,5 +35,17 @@ public class GlobalExceptionHandler {
         }
 
         return R.error("未知错误");
+    }
+
+    /**
+     * 自定义异常处理方法
+     *
+     * @return
+     */
+    @ExceptionHandler(CustomException.class)
+    public R<String> exceptionHandler(CustomException ex) {
+        log.error(ex.getMessage());
+
+        return R.error(ex.getMessage());
     }
 }
