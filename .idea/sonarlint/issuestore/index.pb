@@ -54,3 +54,7 @@ k
 ;src/main/java/com/reggie/common/GlobalExceptionHandler.java,6\5\6501d4b26e18f58775a04b29fb6ec7464efd9e2c
 n
 >src/main/java/com/reggie/service/impl/CategoryServiceImpl.java,e\d\ed0ba9787ca28773d3e5769b7555242995a54a23
+k
+;src/main/java/com/reggie/controller/CategoryController.java,6\9\69dff7774ef4c66de348dd28e8d036b32041c614
+_
+/src/main/java/com/reggie/ReggieApplication.java,c\d\cd8ae4a311d0f7fc51fe0357da37369b037d2139
