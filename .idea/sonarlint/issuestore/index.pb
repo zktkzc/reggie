@@ -24,8 +24,6 @@ h
 8src/main/java/com/reggie/common/MyMetaObjectHandler.java,e\5\e543e7332e7e6a286789569e686adaec6a941ae3
 `
 0src/main/java/com/reggie/common/BaseContext.java,7\0\708429c8792e94c13e535b06c3dce29f86b0d3d6
-k
-;src/main/java/com/reggie/controller/EmployeeController.java,f\9\f951e6398f02ea8a2fc650ec447f293a1de62b96
 ]
 -src/main/java/com/reggie/entity/Category.java,4\c\4c3435837cce228225b003334c1a01faca1037b3
 Y
@@ -62,13 +60,9 @@ k
 ;src/main/java/com/reggie/controller/CategoryController.java,6\9\69dff7774ef4c66de348dd28e8d036b32041c614
 Y
 )src/main/java/com/reggie/dto/DishDto.java,6\4\643415b4abcbaf9230da93a93f185a3439a9cc54
-a
-1src/main/java/com/reggie/service/DishService.java,c\2\c2c8dd3d3136bf75bfaa6b1094c967490e02e043
 _
 /src/main/java/com/reggie/ReggieApplication.java,c\d\cd8ae4a311d0f7fc51fe0357da37369b037d2139
 g
 7src/main/java/com/reggie/service/DishFlavorService.java,9\5\9569ce52a93d83e10643f1fd8b49cb4aaba04e0d
 p
 @src/main/java/com/reggie/service/impl/DishFlavorServiceImpl.java,a\d\add3b90179899ef0e9247d02f4c7aa54a8aa99b9
-j
-:src/main/java/com/reggie/service/impl/DishServiceImpl.java,9\8\984ab54d6eeb3866c9b525d06a85e9cdaaec55b5
