@@ -1,6 +1,4 @@
 
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 n
 >src/main/java/com/reggie/service/impl/EmployeeServiceImpl.java,e\1\e12358c432240084b1470e6e5b159df21314d1bf
 c
@@ -36,8 +34,6 @@ k
 ;src/main/java/com/reggie/common/GlobalExceptionHandler.java,6\5\6501d4b26e18f58775a04b29fb6ec7464efd9e2c
 n
 >src/main/java/com/reggie/service/impl/CategoryServiceImpl.java,e\d\ed0ba9787ca28773d3e5769b7555242995a54a23
-e
-5src/main/java/com/reggie/filter/LoginCheckFilter.java,e\e\eeb372e4def83c7eb0e20460040392e95ec8a46f
 i
 9src/main/java/com/reggie/controller/CommonController.java,7\c\7c5305d75f74d4bfb6cc7c4b737b646d7f51c9f2
 \
@@ -50,8 +46,6 @@ k
 ;src/main/java/com/reggie/controller/CategoryController.java,6\9\69dff7774ef4c66de348dd28e8d036b32041c614
 Y
 )src/main/java/com/reggie/dto/DishDto.java,6\4\643415b4abcbaf9230da93a93f185a3439a9cc54
-_
-/src/main/java/com/reggie/ReggieApplication.java,c\d\cd8ae4a311d0f7fc51fe0357da37369b037d2139
 g
 7src/main/java/com/reggie/service/DishFlavorService.java,9\5\9569ce52a93d83e10643f1fd8b49cb4aaba04e0d
 p
@@ -62,3 +56,21 @@ j
 :src/main/java/com/reggie/service/impl/DishServiceImpl.java,9\8\984ab54d6eeb3866c9b525d06a85e9cdaaec55b5
 [
 +src/main/java/com/reggie/entity/Orders.java,1\8\18d37d7678b8f0f74eff5ec2dfe510850569370b
+b
+2src/main/java/com/reggie/mapper/SetmealMapper.java,7\3\73e449e198c7e0f8cbba429963ef2d30d6bd7080
+f
+6src/main/java/com/reggie/mapper/SetmealDishMapper.java,f\8\f8ab21fdf42ab1f6769f79f3134ebe5867e082a8
+h
+8src/main/java/com/reggie/service/SetmealDishService.java,3\8\38ca30d4d8bfaf0444c73cbd19784b24b1ff5e8f
+q
+Asrc/main/java/com/reggie/service/impl/SetmealDishServiceImpl.java,1\6\16ec2bb7ed1a89cbd942b542f1ef4a5d962878ac
+g
+7src/main/java/com/reggie/controller/DishController.java,2\3\23e44969027837c267afb7d6e80e43f5ad7d2383
+\
+,src/main/java/com/reggie/dto/SetmealDto.java,d\4\d479d9dd32ac12fb7f9506c2196d36640add5a59
+V
+&src/main/java/com/reggie/common/R.java,d\e\de56315195baf87f6078f61c3dd25c1043186444
+[
++src/main/java/com/reggie/dto/OrdersDto.java,b\8\b8e5261fe9f3ccb538a95182b790656da7c732b2
+d
+4src/main/java/com/reggie/common/CustomException.java,3\0\30ca183de740a409751128f13183a3d328a92fc6
