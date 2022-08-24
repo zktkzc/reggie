@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 /**
- * 地址簿管理
+ * 购物车管理
  */
 @Slf4j
 @RestController
@@ -85,5 +85,21 @@ public class ShoppingCartController {
         List<ShoppingCart> list = shoppIngCartService.list(queryWrapper);
 
         return R.success(list);
+    }
+
+    /**
+     * 清空购物车
+     *
+     * @return
+     */
+    @DeleteMapping("/clean")
+    public R<String> clean() {
+
+        LambdaQueryWrapper<ShoppingCart> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(ShoppingCart::getUserId, BaseContext.getCurrentId());
+
+        shoppIngCartService.remove(queryWrapper);
+
+        return R.success("清空购物车成功");
     }
 }
