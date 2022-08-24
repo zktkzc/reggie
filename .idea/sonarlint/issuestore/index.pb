@@ -32,8 +32,6 @@ c
 3src/main/java/com/reggie/mapper/CategoryMapper.java,8\b\8b54f13143be24d469ab706fd0691a85d8b69868
 e
 5src/main/java/com/reggie/service/CategoryService.java,6\d\6d11d295d22fbf2b9d1894f56fb60535531b524e
-d
-4src/main/java/com/reggie/common/CustomException.java,3\0\30ca183de740a409751128f13183a3d328a92fc6
 k
 ;src/main/java/com/reggie/common/GlobalExceptionHandler.java,6\5\6501d4b26e18f58775a04b29fb6ec7464efd9e2c
 n

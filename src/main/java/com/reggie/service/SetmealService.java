@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.reggie.dto.SetmealDto;
 import com.reggie.entity.Setmeal;
 
+import java.util.List;
+
 /**
  * @author tkzc
  */
@@ -15,4 +17,11 @@ public interface SetmealService extends IService<Setmeal> {
      * @param setmealDto
      */
     public void saveWithDish(SetmealDto setmealDto);
+
+    /**
+     * 删除套餐，同时删除套餐和菜品的关联数据
+     *
+     * @param ids
+     */
+    public void removeWithDish(List<Long>ids);
 }
